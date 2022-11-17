@@ -1,0 +1,15 @@
+PROCEDURE insertion(a: array_name INTEGER:[n])
+
+VAR 
+ a : ARRAY_OF INTEGER[1:n];
+    i := 1;
+BEGIN
+    FOR (i =2 ;i < a[n] ; i++)  DO
+        while (a[i+1]< a[i]);
+        a[j] := a[i+1];
+        j := j-1;
+        end while
+        a[j] :=a[j+1];
+    END_FOR
+END
+END_FOR
